@@ -1,0 +1,19 @@
+
+1.先安装sqlite3
+
+$ sudo apt-get install sqlite3 
+$ sudo apt-get install sqlite3-dev 
+
+2.使用sqlite3来查看db的信息
+
+$ sqlite3 users.db 
+SQLite version 3.6.22
+Enter ".help" for instructions
+Enter SQL statements terminated with a ";"
+sqlite> .tables
+user
+sqlite> select * from user;
+1|sb|123
+sqlite> .exit
+
+$ 
