@@ -1,0 +1,8 @@
+github源码仓库的管理
+
+$ git init //初始化本地代码仓库
+$ git clone https://github.com/ustcjl/android.git //下载远程的代码仓库
+$ git pull & git rebase   //将远程的代码仓库更新到本地仓库
+$ git add *
+$ git commit -am 'name'   //git所有修改到本地仓库
+$ git push	         //github的用户名和密码，将本地仓库更新到远程仓库中去
