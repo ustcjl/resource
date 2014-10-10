@@ -1,0 +1,12 @@
+参考文章： http://www.cnblogs.com/xiaowenji/archive/2011/03/12/1982309.html
+
+1. 下载 busybox （ELF格式的）
+
+下载地址 http://www.busybox.net/downloads/binaries/，下载相应版本的busybox
+
+2. 将busybox放到android手机中去
+
+$ adb push busybox /tmp/busybox 
+
+先将busybox push到手机的/tmp目录下（因为tmp目录的权限对于一般用户来说是可访问的）
+再将/tmp/busybox 拷贝到 /system/xbin目录下（手机得root），以后busybox就可以直接使用了
