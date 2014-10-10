@@ -4,6 +4,7 @@ chroot 的参考资料： http://www.ibm.com/developerworks/cn/linux/l-cn-chroot
 
 signal处理 ： http://blog.chinaunix.net/uid-20775448-id-3492910.html
 
+linux和android学习资料： http://linux.linuxidc.com/ （用户名和密码都为www.linuxidc.com）
 
 
 
